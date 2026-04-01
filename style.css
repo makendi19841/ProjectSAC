@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Define CSS variables for consistent theming  */
+:root {
+    --base-color: #333;
+    --text-color: #fff;
+    --primrary-color: #f4f4f4;
+    --secondary-color: #ddd;
+    --color-1: #333;
+    --color-2: #fff;
+    
+}
+
+/* Shay's CSS */
+
+html {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+
+/*Amos's CSS*/
+main {
+    padding: 20px;
+}
+
+.app-features-container {
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.feature-items {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* Carina's CSS */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
