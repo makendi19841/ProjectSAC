@@ -21,12 +21,15 @@ html {
 
 /* Carina's CSS for the header*/
 header {
-  background: #0c3c78;
-  padding: 1rem;
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    background: #0C3C78;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top:0%;
+    width: 100%
 }
 
 header nav ul {
@@ -36,13 +39,14 @@ header nav ul {
 }
 
 header nav ul li a {
-  color: #000000;
-  text-decoration: none;
-  font-weight: bold;
-  border: #f5f8fc solid 1px;
-  border-radius: 5%;
-  padding: 0.5rem;
-  background-color: #f5f8fc;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    border: #F5F8FC solid 1px;
+    border-radius: 1.5625rem;
+    padding: .5rem 1rem;
+    background-color: #F5F8FC;
+    cursor: pointer;
 }
 
 header nav ul li a:hover {
@@ -54,6 +58,17 @@ header h1 {
   font-weight: bold;
   padding: 0.5rem;
   color: #f5f8fc;
+}
+
+header .logo-title{
+    display: flex;
+    align-items: center;
+}
+
+header img{
+    width: 2.4rem;
+    height:2.4rem;
+    border-radius: 50%;
 }
 
 /*Amos's CSS*/
