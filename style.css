@@ -21,15 +21,15 @@ html {
 
 /* Carina's CSS for the header*/
 header {
-    background: #0C3C78;
-    padding: 1rem;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top:0%;
-    width: 100%
+  background: #0c3c78;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0%;
+  width: 100%;
 }
 
 header nav ul {
@@ -39,14 +39,14 @@ header nav ul {
 }
 
 header nav ul li a {
-    color: #000000;
-    text-decoration: none;
-    font-weight: bold;
-    border: #F5F8FC solid 1px;
-    border-radius: 1.5625rem;
-    padding: .5rem 1rem;
-    background-color: #F5F8FC;
-    cursor: pointer;
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  border: #f5f8fc solid 1px;
+  border-radius: 1.5625rem;
+  padding: 0.5rem 1rem;
+  background-color: #f5f8fc;
+  cursor: pointer;
 }
 
 header nav ul li a:hover {
@@ -60,15 +60,15 @@ header h1 {
   color: #f5f8fc;
 }
 
-header .logo-title{
-    display: flex;
-    align-items: center;
+header .logo-title {
+  display: flex;
+  align-items: center;
 }
 
-header img{
-    width: 2.4rem;
-    height:2.4rem;
-    border-radius: 50%;
+header img {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
 }
 
 /*Amos's CSS*/
@@ -163,7 +163,7 @@ footer p {
 
 .hero-text h1 {
   font-size: 3rem;
-  color: #3B6FD8;
+  color: #3b6fd8;
   margin-bottom: 1.25rem;
 }
 
@@ -179,7 +179,7 @@ footer p {
 }
 
 .primary {
-  background: #0C3C78;
+  background: #0c3c78;
   color: white;
   padding: 0.75rem 1.5rem;
   border: none;
@@ -189,7 +189,7 @@ footer p {
 
 .secondary {
   background: white;
-  color: #0C3C78;
+  color: #0c3c78;
   padding: 0.75rem 1.5rem;
   border: 1px solid #ccc;
   border-radius: 1.5625rem;
@@ -201,5 +201,5 @@ footer p {
   height: 21.875rem;
   object-fit: cover;
   border-radius: 50%;
-  border: 6px solid #E0E7FF;
+  border: 6px solid #e0e7ff;
 }
