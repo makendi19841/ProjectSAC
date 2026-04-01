@@ -91,15 +91,63 @@ main {
   margin-bottom: 10px;
 }
 
+/* Carina's CSS for the why section*/
+.why{
+  padding: 1rem 1rem; /* 80px 60px */
+  background-color: #3b6fd8;
+  border-radius: 1.5625rem;
+}
+
+.why h2{
+  font-size: 3rem; /* 48px */
+  color: #F5F8FC;
+  text-align: center;
+}
+
+.reasons-container {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 0.5rem;
+  justify-content: space-around;
+  align-items: center;
+  justify-items: center;
+  
+}
+
+.reason-item{
+  border: #F5F8FC solid 1px;
+  margin: 1rem;
+  background-color: #e0e7ff;
+  padding: .5rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  max-height: 5rem;
+  border-radius: 1.5625rem;
+  border: #0C3C78 solid 2px;
+}
+
+.reason-item img{
+  width: 4rem;
+  height: 4rem;
+  object-fit: cover;
+  border-radius: 50%;
+  border:#3b6fd8 solid .1rem;
+}
+
+.reason-item p{
+  min-width: 13rem;
+
+}
+
 /* Carina's CSS for the footer*/
 footer {
   background: #0c3c78;
   color: #f5f8fc;
   text-align: center;
   padding: 10px 0;
-  position: fixed;
-  bottom: 0%;
-  width: 100%;
 }
 
 footer nav ul {
@@ -150,59 +198,59 @@ footer p {
 }
 
 .hero {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 5rem 3.75rem; /* 80px 60px */
-    min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem 3.75rem; /* 80px 60px */
+  min-height: 100vh;
 }
 
 /* LEFT SIDE */
 .hero-text {
-    max-width: 31.25rem; /* 500px */
+  max-width: 31.25rem; /* 500px */
 }
 
 .hero-text h1 {
-    font-size: 3rem; /* 48px */
-    color: #3b6fd8;
-    margin-bottom: 1.25rem; /* 20px */
+  font-size: 3rem; /* 48px */
+  color: #3b6fd8;
+  margin-bottom: 1.25rem; /* 20px */
 }
 
 .hero-text p {
-    font-size: 1.25rem; /* 20px */
-    color: #333;
-    margin-bottom: 1.875rem; /* 30px */
+  font-size: 1.25rem; /* 20px */
+  color: #333;
+  margin-bottom: 1.875rem; /* 30px */
 }
 
 /* BUTTONS */
 .hero-buttons {
-    display: flex;
-    gap: 0.9375rem; /* 15px */
+  display: flex;
+  gap: 0.9375rem; /* 15px */
 }
 
 .primary {
-    background: #0c3c78;
-    color: white;
-    padding: 0.75rem 1.5rem; /* 12px 24px */
-    border: none;
-    border-radius: 1.5625rem; /* 25px */
-    cursor: pointer;
+  background: #0c3c78;
+  color: white;
+  padding: 0.75rem 1.5rem; /* 12px 24px */
+  border: none;
+  border-radius: 1.5625rem; /* 25px */
+  cursor: pointer;
 }
 
 .secondary {
-    background: white;
-    color: #0c3c78;
-    padding: 0.75rem 1.5rem; /* 12px 24px */
-    border: 1px solid #ccc; /* keep px */
-    border-radius: 1.5625rem; /* 25px */
-    cursor: pointer;
+  background: white;
+  color: #0c3c78;
+  padding: 0.75rem 1.5rem; /* 12px 24px */
+  border: 1px solid #ccc; /* keep px */
+  border-radius: 1.5625rem; /* 25px */
+  cursor: pointer;
 }
 
 /* RIGHT SIDE IMAGE */
 .hero-image img {
-    width: 21.875rem; /* 350px */
-    height: 21.875rem; /* 350px */
-    object-fit: cover;
-    border-radius: 50%;
-    border: 6px solid #e0e7ff; /* keep px */
+  width: 21.875rem; /* 350px */
+  height: 21.875rem; /* 350px */
+  object-fit: cover;
+  border-radius: 50%;
+  border: 6px solid #e0e7ff; /* keep px */
 }
