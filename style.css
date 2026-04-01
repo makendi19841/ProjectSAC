@@ -187,6 +187,10 @@ footer p {
   cursor: pointer;
 }
 
+.primary:hover {
+  background: #3b6fd8;
+}
+
 .secondary {
   background: white;
   color: #0c3c78;
@@ -194,6 +198,10 @@ footer p {
   border: 1px solid #ccc;
   border-radius: 1.5625rem;
   cursor: pointer;
+}
+
+.secondary:hover {
+  background: #d87a3b;
 }
 
 .hero-image img {
