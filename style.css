@@ -211,3 +211,90 @@ footer p {
   border-radius: 50%;
   border: 6px solid #e0e7ff;
 }
+
+/* PRICING SECTION */
+.pricing-section {
+  text-align: center;
+  padding: 5rem 2rem;
+  background: #f5f8fc;
+}
+
+.pricing-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.pricing-section p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+/* CARDS CONTAINER */
+.pricing-cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+/* INDIVIDUAL CARD */
+.card {
+  background: #ffffff;
+  border-radius: 1.5rem;
+  padding: 2.5rem 1.5rem;
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* PRICE */
+.price {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.price-gold {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #d4a017; /* gold color */
+  margin-bottom: 1rem;
+}
+
+/* FEATURES TEXT */
+.pricing-features {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+/* BUTTON / FOOTER */
+.card-footer {
+  background: #0c3c78;
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.card-footer-gold {
+  background: #785f0c;
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* HOVER EFFECT */
+.card-footer:hover {
+  background: #3b6fd8;
+  transform: translateY(-0.2rem);
+}
