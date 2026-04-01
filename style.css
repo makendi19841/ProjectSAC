@@ -16,22 +16,47 @@
     
 }
 
-/* Shay's CSS */
 
 html {
     font-family: Arial, sans-serif;
     line-height: 1.6;
 }
 
+/* Carina's CSS for the header*/
 header {
-    background: #333;
-    color: #fff;
-    padding: 10px 0;
+    background: #0C3C78;
+    padding: 1rem;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-h1 {
-    margin: 0;
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    border: #F5F8FC solid 1px;
+    border-radius: 5%;
+    padding: .5rem;
+    background-color: #F5F8FC;
+}
+
+header nav ul li a:hover{
+    background-color: #3B6FD8;
+}
+
+header h1 {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: .5rem;
+    color: #F5F8FC;
 }
 
 
@@ -56,10 +81,62 @@ main {
 }
 
 
-/* Carina's CSS */
+/* Carina's CSS for the footer*/
 footer {
-    background: #333;
-    color: #fff;
+    background: #0C3C78;
+    color: #F5F8FC;
     text-align: center;
     padding: 10px 0;
+    position: fixed;
+    bottom:0%;
+    width: 100%;
+
+}
+
+footer nav ul {
+    margin: .5rem;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer nav ul li a:hover{
+    color:#3B6FD8
+}
+
+.SocialMedia {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: #F5F8FC;
+    margin: .5rem;
+}
+
+.SocialMedia a {
+    color: #F5F8FC;
+    text-decoration: none;
+    border: #F5F8FC solid 1px;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3B6FD8;
+
+}
+
+.SocialMedia a:hover{
+    background-color: #F5F8FC;
+    color: #3B6FD8;
+}
+
+footer p {
+    margin-top: 1.5rem;
+    font-size: .6rem;
 }
