@@ -21,15 +21,15 @@ html {
 
 /* Carina's CSS for the header*/
 header {
-    background: #0C3C78;
-    padding: 1rem;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top:0%;
-    width: 100%
+  background: #0c3c78;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0%;
+  width: 100%;
 }
 
 header nav ul {
@@ -39,14 +39,14 @@ header nav ul {
 }
 
 header nav ul li a {
-    color: #000000;
-    text-decoration: none;
-    font-weight: bold;
-    border: #F5F8FC solid 1px;
-    border-radius: 1.5625rem;
-    padding: .5rem 1rem;
-    background-color: #F5F8FC;
-    cursor: pointer;
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  border: #f5f8fc solid 1px;
+  border-radius: 1.5625rem;
+  padding: 0.5rem 1rem;
+  background-color: #f5f8fc;
+  cursor: pointer;
 }
 
 header nav ul li a:hover {
@@ -60,15 +60,15 @@ header h1 {
   color: #f5f8fc;
 }
 
-header .logo-title{
-    display: flex;
-    align-items: center;
+header .logo-title {
+  display: flex;
+  align-items: center;
 }
 
-header img{
-    width: 2.4rem;
-    height:2.4rem;
-    border-radius: 50%;
+header img {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
 }
 
 /*Amos's CSS*/
@@ -201,56 +201,148 @@ footer p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5rem 3.75rem; /* 80px 60px */
+  padding: 5rem 3.75rem;
   min-height: 100vh;
 }
 
-/* LEFT SIDE */
 .hero-text {
-  max-width: 31.25rem; /* 500px */
+  max-width: 31.25rem;
 }
 
 .hero-text h1 {
-  font-size: 3rem; /* 48px */
+  font-size: 3rem;
   color: #3b6fd8;
-  margin-bottom: 1.25rem; /* 20px */
+  margin-bottom: 1.25rem;
 }
 
 .hero-text p {
-  font-size: 1.25rem; /* 20px */
+  font-size: 1.25rem;
   color: #333;
-  margin-bottom: 1.875rem; /* 30px */
+  margin-bottom: 1.875rem;
 }
 
-/* BUTTONS */
 .hero-buttons {
   display: flex;
-  gap: 0.9375rem; /* 15px */
+  gap: 0.9375rem;
 }
 
 .primary {
   background: #0c3c78;
   color: white;
-  padding: 0.75rem 1.5rem; /* 12px 24px */
+  padding: 0.75rem 1.5rem;
   border: none;
-  border-radius: 1.5625rem; /* 25px */
+  border-radius: 1.5625rem;
   cursor: pointer;
+}
+
+.primary:hover {
+  background: #3b6fd8;
 }
 
 .secondary {
   background: white;
   color: #0c3c78;
-  padding: 0.75rem 1.5rem; /* 12px 24px */
-  border: 1px solid #ccc; /* keep px */
-  border-radius: 1.5625rem; /* 25px */
+  padding: 0.75rem 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 1.5625rem;
   cursor: pointer;
 }
 
-/* RIGHT SIDE IMAGE */
+.secondary:hover {
+  background: #d87a3b;
+}
+
 .hero-image img {
-  width: 21.875rem; /* 350px */
-  height: 21.875rem; /* 350px */
+  width: 21.875rem;
+  height: 21.875rem;
   object-fit: cover;
   border-radius: 50%;
-  border: 6px solid #e0e7ff; /* keep px */
+  border: 6px solid #e0e7ff;
+}
+
+/* PRICING SECTION */
+.pricing-section {
+  text-align: center;
+  padding: 5rem 2rem;
+  background: #f5f8fc;
+}
+
+.pricing-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.pricing-section p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+/* CARDS CONTAINER */
+.pricing-cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+/* INDIVIDUAL CARD */
+.card {
+  background: #ffffff;
+  border-radius: 1.5rem;
+  padding: 2.5rem 1.5rem;
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* PRICE */
+.price {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.price-gold {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #d4a017; /* gold color */
+  margin-bottom: 1rem;
+}
+
+/* FEATURES TEXT */
+.pricing-features {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+/* BUTTON / FOOTER */
+.card-footer {
+  background: #0c3c78;
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.card-footer-gold {
+  background: #785f0c;
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* HOVER EFFECT */
+.card-footer:hover {
+  background: #3b6fd8;
+  transform: translateY(-0.2rem);
 }
