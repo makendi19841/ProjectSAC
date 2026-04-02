@@ -98,9 +98,17 @@ main {
 }
 
 /* Carina's CSS for the why section*/
+.why{
+  padding: 4rem 0rem;
+}
 .why h2{
-  font-size: 3rem; /* 48px */
-  color: #3b6fd8;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.why p {
+  font-size: 1.1rem;
+  color: #555;
   text-align: center;
 }
 
@@ -152,7 +160,7 @@ main {
 
 .reason-item p{
   max-width: 13rem;
-  font-size: 0.95rem;
+  font-size: 1rem;
 }
 
 /* Carina's CSS for the footer*/
@@ -216,7 +224,7 @@ footer p {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2.5rem 3.75rem;
+  padding: 2rem 3.75rem;
   min-height: 100vh;
   gap: 4rem;
 }
@@ -373,7 +381,7 @@ footer p {
 
 .app-features-container {
   text-align: center;
-  padding: 5rem 2rem;
+  padding: 4rem 2rem;
   background: #f5f8fc;
   /* ADD THIS: stack header above cards */
   display: flex;
