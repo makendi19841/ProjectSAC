@@ -358,33 +358,40 @@ footer p {
    ========================================== */
 
 .app-features-container {
-  margin-bottom: 60px;
+  text-align: center;
+  padding: 5rem 2rem;
+  background: #f5f8fc;
+  /* ADD THIS: stack header above cards */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Features Header (Title + Description) */
 .features-header {
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 2rem;
 }
 
 .features-header h2 {
   font-size: 2.5rem;
-  margin-bottom: 15px;
-  color: var(--text1-color);
+  margin-bottom: 1rem;
+  
 }
 
 .features-header p {
   font-size: 1.1rem;
-  color: var(--text2-color);
-  max-width: 600px;
-  margin: 0 auto;
+  color: #555;
+  margin-bottom: 2rem;
+ 
 }
 
 /* Feature Items Grid */
 .feature-items {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
   padding: 0;
   background: none;
   border: none;
@@ -392,23 +399,25 @@ footer p {
 
 /* Individual Feature Card */
 .feature-card {
+  background: #ffffff;
+  border-radius: 1.5rem;
+  padding: 2.5rem 1.5rem;
+  width: 15rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
-  padding: 20px;
+  justify-content: space-between;
+  
 }
 
 /* Circular Icon */
 .feature-icon {
   width: 100px;
   height: 100px;
-  background-color: var(--background-body);
+  background-color: #e0e7ff;
   border-radius: 50%;
-  margin-bottom: 30px;
+  margin-bottom: 1rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  
-  /* Center emoji */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -418,13 +427,11 @@ footer p {
 
 .feature-card h3 {
   font-size: 1.25rem;
-  margin-bottom: 15px;
-  color: var(--text1-color);
+  margin-bottom: 1rem;
 }
 
 .feature-card p {
-  font-size: 0.95rem;
-  color: var(--text2-color);
-  line-height: 1.6;
-  max-width: 280px;
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
 }
